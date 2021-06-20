@@ -1,0 +1,27 @@
+{
+  "name": "learning-git",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/sanderpaniago/learning-git.git",
+  "author": "Sander Paniago <sanderppaniago@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@commitlint/cli": "^12.1.4",
+    "@commitlint/config-conventional": "^12.1.4",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^6.0.0"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "dependencies": {
+    "commitizen": "^4.2.4"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
