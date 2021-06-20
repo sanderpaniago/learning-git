@@ -1,8 +1,8 @@
 {
-  "name": "learning-git",
+  "name": "template-gitlint",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/sanderpaniago/learning-git.git",
+  "repository": "https://github.com/sanderpaniago/template-gitlint.git",
   "author": "Sander Paniago <sanderppaniago@gmail.com>",
   "license": "MIT",
   "devDependencies": {
